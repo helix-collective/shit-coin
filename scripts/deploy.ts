@@ -12,6 +12,8 @@ async function main() {
   // Wait for the transaction to be mined. In this case, the contract to
   // be deployed
   await HCSC.deployed();
+
+  console.log('Helix collective shit coin deployed @', HCSC.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
